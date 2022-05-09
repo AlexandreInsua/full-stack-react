@@ -1,12 +1,15 @@
 import './App.css';
-import Description from './Description';
-import Message from './Message';
+import Container from './components/Container';
+import Description from './components/Description';
+import Message from './components/Message';
 
 function App() {
+
   return (
     <div className="App">
       <Message message='Bos días' />
       <Description />
+      <Container />
     </div>
   );
 }
